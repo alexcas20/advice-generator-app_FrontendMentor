@@ -13,33 +13,33 @@
 </head>
 <body class="bg-DarkBlue font-Manrope " >
 
-
   <article class="flex place-content-center" >
-    <div class="bg-DarkGrayishBlue w-[342px] h-[310px] rounded-lg px-[30px] pt-10 pb-16 my-40 flex flex-col text-center relative md:w-[538px] md-h[328px]">
-    <h2 class="text-NeonGreen uppercase mb-6 tracking-[4px] text-xs "> 
+
+    <div class="bg-DarkGrayishBlue w-[342px]  rounded-lg px-[30px] pt-10 pb-16 my-20 flex flex-col  text-center mx-auto relative md:w-[538px] ">
+    <h2 class="text-NeonGreen uppercase mb-4 tracking-[4px] text-xs "> 
       Advice # 
-      <span id="adviceId">117</span>
+      <span id="adviceId"></span>
       </h2>
-      <p id="advice" class="text-LightCyan text-[22px] font-extrabold mb-6 md:text-3xl md:mb-10">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>
+      <p id="advice" class="text-LightCyan text-[22px] font-extrabold  mb-6 md:text-2xl "></p>
 
       <picture>
         <source media="(max-width: 640px)" srcset="../images/pattern-divider-mobile.svg">
         <source media="(min-width: 641px)" srcset="../images/pattern-divider-desktop.svg">
-        <img class="mx-auto" src="" alt="divisor" >
+        <img class="mx-auto my-auto" src="" alt="divisor" >
       </picture>
-    
 
-        <div class="bg-NeonGreen w-[66px] h-[66px] rounded-full grid place-content-center absolute bottom-[-32px] left-[138px] cursor-pointer hover:drop-shadow-[0_0_16px_hsl(150,100%,66%)] md:left-[236px]">
+        <div id="diceBtn" class="bg-NeonGreen w-[66px] h-[66px] rounded-full grid place-content-center absolute bottom-[-32px] left-[138px] cursor-pointer hover:drop-shadow-[0_0_16px_hsl(150,100%,66%)] md:left-[236px]">
           <img src="../images/icon-dice.svg" alt="dado">
         </div>
     </div>
+    
   </article>
 
-
-  
-  <footer class="text-LightCyan text-center text-md">
+  <footer class="text-LightCyan text-center text-md md:text-xl">
     Challenge by <a class="text-NeonGreen" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a class="text-NeonGreen" href="https://github.com/alexcas20" target="_blank"><span class=" inline-block hover:-translate-y-2">Jorge Calvillo</span></a>.
   </footer>
+
+  <script  src="./main.js"></script>
 </body>
 </html>
